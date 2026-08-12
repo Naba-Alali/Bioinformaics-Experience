@@ -5,7 +5,7 @@ import {
   TrendingUp, Star, CheckCircle2, XCircle, Settings, Globe, Sparkles,
   Home, Bell, Activity, Brain, Apple, LayoutGrid, Moon,
   Droplets, Dumbbell, Wind, Flame, Leaf, User, LogOut, Shield,
-  HelpCircle, CreditCard, Dna, BellRing, Lock, MessageCircle, Send,
+  HelpCircle, CreditCard, Dna, BellRing, Lock, MessageCircle, Send, Plus,
 } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
 import mascotTabletImg from "@/imports/____________2026-07-28_155021-1.png";
@@ -585,7 +585,7 @@ export default function App() {
             <div className="flex-1 flex flex-col items-center justify-center">
               <button onClick={() => setShowQuickActions(true)}
                 className="w-12 h-12 rounded-full bg-gradient-to-br from-[#1e5e5e] to-[#4db8b8] flex items-center justify-center shadow-[0_4px_16px_rgba(30,94,94,0.40)] active:scale-95 transition-transform -mt-4">
-                <span className="text-white text-[26px] font-light leading-none select-none">+</span>
+                <Plus size={26} strokeWidth={2.5} className="text-white" />
               </button>
             </div>
 
